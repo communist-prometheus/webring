@@ -1,0 +1,17 @@
+{
+  // CDN for the webring: serves the built bundle + members.json at
+  // cdn.comprom.org via Cloudflare Workers Static Assets.
+  //
+  // NOTE: the design's first choice was an R2 bucket, but R2 is not
+  // enabled on this account (needs a one-time dashboard enable +
+  // billing). Workers Static Assets is already active and deploys
+  // with the existing credentials, so we ship here now and can
+  // migrate to R2 later without changing the public cdn.comprom.org
+  // URLs.
+  "name": "webring-cdn",
+  "compatibility_date": "2026-05-22",
+  "assets": {
+    "directory": "./cdn-dist"
+  },
+  "routes": [{ "pattern": "cdn.comprom.org", "custom_domain": true }]
+}
