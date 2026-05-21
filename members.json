@@ -1,0 +1,24 @@
+{
+  "$schema": "./members.schema.json",
+  "ring": "revolutionary-internationalists",
+  "members": [
+    {
+      "url": "https://comprom.org/",
+      "name": "Communist Prometheus",
+      "lang": "en",
+      "description": "Revolutionary Marxist organization."
+    },
+    {
+      "url": "https://example-allied-org-1.org/",
+      "name": "Allied Organisation 1 (placeholder)",
+      "lang": "en",
+      "description": "Replace with a real ring member."
+    },
+    {
+      "url": "https://example-allied-org-2.org/",
+      "name": "Allied Organisation 2 (placeholder)",
+      "lang": "en",
+      "description": "Replace with a real ring member."
+    }
+  ]
+}
