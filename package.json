@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Headless web component for the Revolutionary Internationalists webring — one button, sends the visitor to a random allied site.",
-  "license": "AGPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
